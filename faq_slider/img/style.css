@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    list-style: none;
+}
+
+:root {
+    --white-100: #fff;
+    --gray-200: #f9f9f9;
+    --gray-300: #eee;
+    --gray-400: #ddd;
+    --gray-500: #666;
+    --green: #6bb170;
+}
+
+.text_center {
+    text-align: center;
+}
+
+/* ------ */
+
+body {
+    background-color: var(--gray-200);
+}
+
+.container {
+    width: 65vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 20px 0px;
+    color: var(--gray-500);
+}
+
+.title h3 {
+    font-size: 18px;
+    padding: 14px 0px;
+    background-color: var(--green);
+    color: var(--white-100);
+}
+
+ul {
+    color: var(--gray-500);
+}
+
+.question {
+    padding: 20px;
+    background-color: var(--gray-300);
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--gray-400);
+    cursor: pointer;
+}
+
+.arrowPic {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.5s;
+}
+
+.arrowPic.active {
+    transform: rotate(90deg);
+}
+
+.answer {
+    font-size: 16px;
+    background-color: var(--gray-400);
+    height: 0;
+    padding: 0px 20px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.answer.active {
+    padding: 28px 20px;
+    height: auto;
+}
+
+
+
