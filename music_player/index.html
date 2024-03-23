@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入 font-awesome 的 icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+</head>
+
+<body>
+    <h1>Music Player</h1>
+    <div class="container">
+        <div class="musicInfo">
+            <p class="musicName">energy</p>
+            <div class="progressContainer">
+                <span class="progress"></span>
+            </div>
+        </div>
+        <div class="cdPicContianer">
+            <img class="cdPic" src="./images/energy.jpg" alt="">
+        </div>
+        <audio src="./music/energy.mp3"></audio>
+        <div class="musicController">
+            <span class="previousBtn">
+                <i class="fas fa-backward"></i>
+            </span>
+            <span class="playPauseBtn">
+                <i class="fas fa-play"></i>
+            </span>
+            <span class="nextBtn">
+                <i class="fas fa-forward"></i>
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
