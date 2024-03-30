@@ -1,0 +1,94 @@
+/* 引入 Lato 字型  */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
+
+:root {
+    --gray-1: #e3e5e4;
+    --gray-2: #c3c7ca;
+    --gray-3: #34444f;
+}
+
+body {
+    margin: 16px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 44px;
+    font-weight: 400;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: var(--gray-3);
+}
+
+.corpContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--gray-1);
+    background-color: white;
+}
+
+.corpContainer .num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-2);
+    width: 62px;
+    height: 62px;
+    font-size: 28px;
+}
+
+.dragItem {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 16px;
+    width: 280px;
+}
+
+.dragItem.over {
+    background-color: var(--gray-1);
+}
+
+.corpName {
+    margin-right: 20px;
+}
+
+.corpName.wrong {
+    color: #ff3838;
+}
+
+.corpName.correct {
+    color: #3ae374;
+}
+
+.checkOrder {
+    font-size: 20px;
+    width: 180px;
+    padding: 8px 0px;
+    margin: 20px auto;
+    border: none;
+    background-color: var(--gray-2);
+    color: var(--gray-3);
+}
+
+
+
