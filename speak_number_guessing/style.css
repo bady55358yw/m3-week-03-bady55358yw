@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #2f3542;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/bg.jpeg);
+    background-position: left center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.numContainer {
+    text-align: center;
+}
+
+.speakNum {
+    font-size: 32px;
+    border: 1px solid white;
+    padding: 10px 0px;
+    
+}
+
+h3 {
+    margin: 12px;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 20px;
+}
+
+.bingoText {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.againBtn {
+    padding: 12px 20px;
+    font-size: 24px;
+}
